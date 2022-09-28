@@ -1,0 +1,96 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-size: 75px;
+    text-align: center;
+    padding: 10px;
+    color: #ffff;
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+    color: #089099;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li a {
+    position: relative;
+    font-size: 25px;
+    padding-left: 150px;
+    color: #089099;
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 58px;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.center {
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+button {
+    display: block;
+    margin: auto;
+    background: #089099;
+    border-radius: 20px;
+}
+
+table{
+    color: #089099;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+select{
+    margin-top: 20px;
+}
+
+.buttonRounded{
+    background: #089099;
+    border-radius: 20px;
+}
